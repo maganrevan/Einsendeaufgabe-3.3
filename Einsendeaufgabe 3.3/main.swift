@@ -8,5 +8,14 @@
 
 import Foundation
 
-print("Hello, World!")
+var bFlag = true
+var iCounter = 1
 
+while bFlag{
+    print("Das Doppelte von \(iCounter) ist \(iCounter * 2)")
+    
+    iCounter += 1
+    if iCounter == 11{
+        bFlag = false
+    }
+}
